@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin: 0 50px;
+}
+
+.body div {
+  margin: 50px;
+  padding: 5px;
+  width: 100rem;
+
+}
+
+.body p {
+  text-align: justify;
+}
+
+.header {
+  background-color: #474b53;
+  margin: 50px 100px;
+  height: 800px;
+}
+
+.header nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+.image1 {
+  height: 70px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.image2 {
+  height: 20px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.header div  {
+  display : flex;
+  flex-flow : column nowrap;
+  align-items: flex-start;
+  width: 40%;
+  color: white;
+  margin: 50px;
+
+}
+
+.header div h1 {
+  font-size: 100px;
+  text-align: left;
+
+}
+
+.header div p {
+  font-size: 30px;
+  text-align: left;
+
+}
+
+.header div button {
+  border-radius: 10px ;
+  height: 80px;
+  width: 200px;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+
+
+}
